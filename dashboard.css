@@ -1,0 +1,40 @@
+#heading{
+    text-align:center;
+    font-size:60px;
+    color:white;
+}
+body{
+    background-color: rgb(0, 145, 255)
+}
+.element-one{
+    position: absolute;
+    top: calc(56px + 41px + 63px);
+    left: 0;
+}
+.element-one img{
+    width: 30px;
+}
+
+/* banner */
+.banner-title{
+    font-size: 38px;
+    line-height: 1.166;
+}
+.banner-content{
+    display: grid;
+    column-gap: 78px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.banner-left .content-wrapper{
+    max-width: 445px;
+    margin-left: auto;
+}
+.banner-left .content-wrapper p{
+    max-width: 340px;
+}
+.banner-left .text{
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
